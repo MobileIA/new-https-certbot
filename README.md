@@ -12,6 +12,8 @@ sudo service apache2 restart
 3. Generamos el certificado con el siguiente comando:
 ```bin
 sudo certbot certonly
+# Seleccionar directamente el dominio
+sudo certbot --apache certonly
 ```
 4. Seleccionar: 3: Place files in webroot directory (webroot):
 5. Especificar una dirección de email valida.
